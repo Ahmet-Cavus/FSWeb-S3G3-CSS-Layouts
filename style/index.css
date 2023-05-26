@@ -1,1 +1,130 @@
-/* CSS stillerinizi buraya girin */
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    margin: 1px;
+    font-size: 38px;
+    text-align: center;
+    display: flex;
+    background-color: white;
+}
+
+
+body{
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+.sosyal {
+    width: 200px;
+    margin: auto 0px;
+}
+
+.baslik {
+    margin: 10px 0 10px 150px;
+    font-size: 38px;
+    text-align: center;
+}
+
+.container {
+    height: 180px;
+    padding: 3px 0 10px 0;
+    background: url(bulut.png) fixed, #1DABB8;
+}
+
+.name {
+    margin-left: 10px;
+    text-align: left;
+    color: black;
+    font-size: 50px;
+}
+
+img {
+    margin:10px;
+    font-size: 18px;
+}
+
+.butons {
+    margin: 10px;
+}
+
+.btn {
+    margin: 0;
+    background-color: #25373D;
+    color:#fff;
+    padding:8px 20px;
+    font-size:20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.alan1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.bolum1 {
+    margin: 0;
+    display: flex;
+    font-size: 15px;
+    width: 100%;
+}
+
+.project-text {
+    padding: 80px 0 0 80px;
+}
+
+
+.bolum1 img{
+    width: 20em;
+    display: block;
+}
+
+.bolum2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.bolum2 img {
+    width: 315px;
+    display: block;
+}
+
+.bolum3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 2px solid lightgray;
+}
+
+.bolum3 img {
+    width: 315px;
+    display: block;
+}
+
+
+.btn-footer {
+    margin: 0 0 0 600px;
+    color:black;
+    padding:8px 20px;
+    font-size:20px;
+    text-decoration: none;
+    border: 2px solid black;
+    text-align: center;
+}
+
+footer {
+    height: 180px;
+    padding: 3px 0 10px 0;
+    background: url(bulut.png) fixed, #9fabac;
+}
+
+.message {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
